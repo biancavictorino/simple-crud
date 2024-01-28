@@ -1,7 +1,7 @@
 <!-- updaterecord.php -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $userid = $_GET["q"];
+    $userid = $_GET["userid"];
     
     $link = mysqli_connect("localhost", "root", "password", "dbplp");
     
